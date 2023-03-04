@@ -1,0 +1,9 @@
+/* Write your CSS here */
+.vacc-by-gender-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #1c1c2b;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}

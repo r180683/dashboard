@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.barchart-container {
+  background-color: #1c1c2b;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.vac-coverage {
+  color: #94a3b8;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+}

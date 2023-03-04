@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #161625;
+  min-height: 100vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.app-logo-container {
+  display: flex;
+  align-items: center;
+}
+.app-logo {
+  width: 40px;
+  height: 40px;
+}
+.app-logo-name {
+  color: #2cc6c6;
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+.head {
+  color: #ffffff;
+  font-weight: 400;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failure-image {
+  width: 40%;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.failure-text {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.dbs-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0px;
+}
